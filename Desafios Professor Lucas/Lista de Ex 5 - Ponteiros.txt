@@ -1,0 +1,18 @@
+1 - Crie um algoritmo que crie uma estrutura (pessoa) de nome, idade, altura e peso, crie uma função que 
+receba um ponteiro da estrutura e imprima todos os nomes.
+
+2 - Crie um algoritmo que uma estrutura que guarde o nome de um piloto e o tempo de volta (mm:ss) na pista de corrida, 
+crie um vetor dessa estrutura com uma série de pilotos, crie uma função de ordenação de acordo com o tempo utilizando qsort.
+
+3 - Criar um algoritmo que leia um texto de um arquivo e diga quantas palavras tem em cada linha e qual é o total de 
+palavras do arquivo.
+
+4 - Crie um algoritmo que calcule a area de diversos polígonos diferentes. Para isso, crie uma função para calcular a 
+área de cada polígono e um vetor de ponteiro para apontar para cada função na sequência.
+
+5 - Crie um algoritmo que decida se uma matriz é simétrica. Utilizar uma função do tipo bool que receba como entrada uma 
+matriz de números reais, o número de linhas e colunas. Crie outra função que gere uma matriz 10 x 10 com 
+números aleatórios de 1 a 100. Crie um programa que utiliza as duas funções.
+
+6 - Crie um função que receba uma matriz de qualquer dimensão e calcule sua média, moda e mediana.
+
