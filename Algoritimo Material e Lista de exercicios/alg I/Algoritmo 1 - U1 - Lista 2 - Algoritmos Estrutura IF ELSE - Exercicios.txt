@@ -1,0 +1,29 @@
+1 - Faça um algoritmo que analise a média de 3 notas de um aluno e sua frequência avalie se ele está aprovado ou reprovado. A média da disciplina é 6 e frequência mínima 70%.
+
+2 - Escreva  um  programa  para  ler  2  valores  (considere  que    não  serão informados valores iguais) e escrever o maior deles.
+
+3 - Escreva  um  programa  para  ler  3  valores  (considere  que    não  serão informados valores iguais) e escrever o maior deles.
+
+4 - Escreva  um  programa  diga se um número é par ou ímpar.
+
+5 - Escreva  um programa  para  ler  o  ano  de  nascimento  de  uma  pessoa  e escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que ela nasceu).
+
+6 - As maçãs custam R$ 0,30 cada se forem compradas menos do que uma dúzia,  e  R$  0,25  se  forem compradas  pelo  menos  doze.  Escreva  um programa  que  leia  o  número  de  maçãs  compradas,  calcule  e  escreva  o valor total da compra.
+
+7 - Faça um algoritmo que informe o usuário se o ano inserido é bissexto ou não.
+
+8 - Um banco concederá um crédito especial aos seus clientes, variável com o saldo médio no último ano. Faça um algoritmo que leia o saldo médio de um cliente e calcule o valor do crédito de acordo com a tabela abaixo. Mostre uma mensagem informando o saldo médio e o valor do crédito.
+Saldo Médio			Percentual
+Menor que 200		Nenhum Crédito
+de 201 a 400		20% do valor saldo médio
+de 401 a 600		30% do valor saldo médio
+acima de 601		40% do valor saldo médio
+
+9 - De acordo com a Receita Federal, para cada faixa salarial acima de R$ 1787,77 mensal, paga-se uma porcentagem referente ao imposto de renda. Confira a Tabela Progressiva para o cálculo mensal do imposto sobre a renda da pessoa física a partir do exercício de 2015, ano-calendário de 2014:
+
+Base de Cálculo mensal em R$		Aliquota %
+até 1787,77							isento
+de 1787,78 até 2679,29				7,5
+de 2679,30 até 3572,43				15,0
+de 3572,44 até 4463,81				22,5
+acima de 4463,82					27,5

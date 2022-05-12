@@ -1,0 +1,69 @@
+1 - Uma loja de roupa necessita adicionar em seu site um componente que a partir de um total a pagar possibilite ao usuário simular parcelas sem juros da compra. A entrada do sistema será o montante final da compra e a quantidade de parcelas. O sistema deverá resultar no valor em reais de cada parcela.
+
+Variáveis de entrada: total_a_pagar, qtdade_parc
+
+Processamento:
+tam_parc = total_a_pagar / qtdade_parc;
+
+Variáveis de saída:  "Total a pagar: 500" total_a_pagar
+					 "Numero de Parcelas: 5" qtdade_parc
+					 "Tamanho Parcelas: 100 reais" tam_parc
+
+2 - Uma empresa necessita de um software que consiga calcular a profundidade de um poço artesiano de formato cilindrico com 0.5 metro de raio, de acordo com a capacidade de água pretendida pelo cliente.
+
+Volume do cilindro em Litros = pi*r²*profund*1000 
+
+Variáveis de entrada: litros
+
+Processamento:
+Litros = pi*r²*profund*1000
+=>profund = Litros/(pi*r²*1000)
+=>>profund = Litros/(pi*r*r*1000)
+
+Variáveis de saída:  "A Profundidade em metros é" profund
+
+3 - Um banco necessita de um software que auxilie ao cliente que gostaria de emprestrar dinheiro poça prever o montante final a ser pago aplicando juros simples cujo a taxa também é variável.
+Ex: Se o cliente emprestar 10 mil reais ao um juros de 5%, ele deverá pagar 10500 ao banco.
+
+Variáveis de entrada: montante_inicial, juros
+
+Processamento:
+opção 1
+mont_juros = montante_inicial * (juros/100)
+mont_final = montante_inicial + mont_juros
+opção 2
+mont_final = montante_inicial + (montante_inicial * (juros/100))
+
+Variáveis de saída: "Montante Final: " mont_final
+
+4 -	Uma escada rolante de 6m de comprimento liga dois andares de uma loja e tem inclinação de 30°. Determine, em metros, a altura entre esses dois andares. Dados sen30°= 0,5 ; cos30°=0.87 ; tg30° = 0,58
+
+Variáveis de entrada: comp_escada
+
+Processamento:
+cat_op = hip * sen30
+
+Variáveis de saída: "A altura dos andares em metros é" cat_op
+
+
+5 - Escreva um programa para calcular e imprimir o número de lâmpadas necessárias para iluminar um determinado cômodo de uma residência. Dados de entrada: a potência da lâmpada utilizada (em watts), as dimensões (largura e comprimento, em metros) do cômodo. Considere que a potência necessária é de 18 watts por metro quadrado.
+
+6 - Escreva um programa para ler as dimensões de uma cozinha retangular (comprimento, largura e altura), calcular e escrever a quantidade de caixas de azulejos para se colocar em todas as suas paredes (considere que não será descontada a área ocupada por portas e janelas). Cada caixa de azulejos possui 1,5 m².
+
+7 - A granja Frangotech possui um controle automatizado de cada frango da sua produção. No pé direito do frango há um anel com um chip de identificação; no pé esquerdo são dois anéis para indicar o tipo de alimento que deve consumir. Sabendo que o anel com chip custa R$4,00 e o anel de alimento custa R$3,50, faça um algoritmo para calcular o gasto total da granja para marcar todos os seus frangos.
+
+8 - Faça um algoritmo que calcule a área de um círculo.
+
+9 - Uma loja necessita de um sistema que calcule o troco do pagamento das compras do cliente. O sistema deverá receber o total a pagar e o pagamento realizado pelo cliente para retornar o troco.
+
+10 - Faça um algoritmo que calcule qual é o valor em reais de um muro de 2 metros de altura que será construído em volta de um terreno retangular. Cada metro quadrado de concreto custa 120 reais.
+
+11 - Faça um algoritmo que auxilie o cliente que irá construir uma casa a saber quanto dinheiro ele deverá economizar mensalmente e por quanto tempo para ter dinheiro para construir a casa a vista.
+
+12 - Faça um algoritmo que auxilie o cliente que irá financiar uma casa a saber o montante final a ser pago. Para isso, considere uma taxa de juros de 5% ao ano, 40% de entrada, e com duas possibilidades de parcelamento: 6 anos ou 7 anos.
+
+13 - Faça um algoritmo que converta dólares em reais. Considere a taxa de câmbio variável.
+
+14 - Faça um algoritmo que calcule a média de 3 números.
+
+15 - Faça um algoritmo que converta km/h em m/s.

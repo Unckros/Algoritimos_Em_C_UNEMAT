@@ -1,0 +1,67 @@
+1 - Crie um algoritmo que proporcione uma variáveis composta que represente uma data DD/MM/AAAA. O algoritmo deverá exibir uma data e possibilitar ao usuário que acrescente um número de dias a essa data.
+
+2 - Crie um algoritmo que armazene em um vetor os 20 primeiros números primos e os imprima.l
+
+3 - Uma agência de venda de automóveis vende 15 modelos diferentes de carros e possui 10 vendedores. Deseja-se um programa que escreva um relatório mensal das vendas totais por vendedor e por modelo.
+
+4 - Faça um algoritmo que conte quantas palavras estão presentes em um vetor de caracteres.
+
+5 - Faça um algoritmo que receba uma tabela de nomes e possibilite que o usuário busque por um nome na tabela.
+
+6 - Faça um algoritmo que receba uma tabela de nomes e coloque-os em ordem crescente.
+
+7 - Uma base de dados estatística apresenta os seguintes valores.
+
+ 6, 6, 6, 7, 7, 7, 7, 7, 7, 7
+ 7, 7, 7, 7, 7, 7, 7, 7, 7, 7
+ 7, 7, 8, 8, 8, 8, 8, 8, 8, 8
+ 8, 8, 8, 8, 8, 8, 8, 8, 8, 8
+ 8, 8, 8, 8, 8, 8, 8, 8, 8, 8
+ 8, 8, 8, 9, 9, 9, 9, 9, 9, 9
+ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
+ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
+ 9, 9,10,10,10,10,10,10,10,10
+10,10,10,10,10,10,10,11,11,11
+
+a - Armazene esse valores em uma matriz 10 x 10.
+b - calcule a média aritmética
+c - calcule o desvio padrão
+dp = (sum(x^2)/sum(fi))-(media^2)
+	onde x = cada elemento da base de dados
+		 fi = quantidade de amostras
+		 media = média aritmetica dos elementos
+d - Imprimir um histograma
+
+8 - Crie uma matriz 11x6 que consiga calcular o triangulo de pascal. No triângulo de pascal cada número é a soma dos dois número superiores a ele.
+		   1
+		1	  1
+      1    2    1
+    1   3     3   1
+  1   4    6    4   1
+1   5   10   10   5   1
+
+9 - Os resultados das eleições da cidade X foram:
+				Candidatos
+Bairro 	A		B		C 		D
+1		194		48		206		45
+2		180		20		320		16
+3		221		90		140		20
+4		432		50		821		14
+5		820		61		946		18
+
+a - Calcular e imprimir o total de votos e porcentagem por candidato
+b - Se algum candidato obtiver mais de 50% dos votos, o software deverá declarar o vencedor da eleição
+c - Se nenhum candidato receber mais de 50% dos votos o Programa deverá imprimir o nome dos dois candidatos mais votados.
+
+10 - Projete um programa que possibilite que 2 jogadores joguem forca.
+
+11 - Projete um programa que possibilite o jogo resta 1. Contar quantidade de movimentos.
+  111   
+  111      
+1111111
+111 111
+1111111   
+  111   
+  111   
+
+12 - Faça um algoritmo de busca em uma matrix que contenha 4 nomes.

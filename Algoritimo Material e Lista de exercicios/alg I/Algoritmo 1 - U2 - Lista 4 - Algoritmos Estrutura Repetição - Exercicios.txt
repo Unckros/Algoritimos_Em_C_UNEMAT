@@ -1,0 +1,71 @@
+Exercícios de Repetição
+
+1 - Criar algoritmo que faça a conversão de número decimal em binário.
+
+2 - Criar algoritmo que faça a conversão de número binário em decimal.
+
+3 - Criar algoritmo que combine os dois exercícios acima.
+Coloque os itens como opções de switch case.
+	3.1 – Convert dec to bin
+	3.2 – Convert Bin to Dec
+	
+4 - Altere o algoritmo da pizza para que fique em loop infinito enquanto o usuário escolher a opção errada.
+
+5 - Altere o algoritmo das operações básicas para que acumule os valores entre uma operação e outra.
+
+6 - Faça um algoritmo que busca termos de uma progressão aritmética (P.A).
+Exemplo: Usuário fornece o primeiro termo da PA e a razão entre os termos, depois disso ele busca o enésimo termo da PA. O algoritmo calcula e retorna esse valor.
+a1 = 3
+razao = 2
+n = 7
+3, 5, 7, 9, 11, 13, 15
+
+7 - Faça um algoritmo que busca termos de uma progressão geométrica (P.G).
+Exemplo: Usuário fornece o primeiro termo da PG e a razão entre os termos, depois disso ele busca o enésimo termo da PG. O algoritmo calcula e retorna esse valor.
+a1 = 3
+razao = 2
+n = 7
+3, 6, 12, 24, 48, 96, 192
+
+8 - Um sensor de temperatura representa suas medidas através de uma conversão analógica digital (ADC) em 8 bits. Crie um algoritmo que através da taxa de amostragem e tempo de medição (fornecidos pelo usuário) calcule quantos bytes de memória são necessários para armazenar a informação.
+
+9 - Utilizando o mesmo contexto da questão anterior, faça um algoritmo que através das características de medição do sensor, converta infinitamente o número de 8 bits em temperatura em ºC.
+temp = ((max-min)/256)*dig-min;
+
+10 - Crie um algoritmo que inverta os dígitos de um número inteiro fornecido pelo usuário. O usuário poderá informar quantos digitos o número digitado possui.
+
+11 - Faça uma algoritmo que imprima a série de termos de uma progressão aritmética (P.A). Usuário fornece o primeiro termo da PA e a razão entre os termos, depois disso ele fornece o último termo da PA que ele deseja imprimir. O algoritmo calcula e retorna essa série de valores. Exemplo: 
+		Entrada: primeiro termo = 3, razão = 2, ultimo termo = 5º
+		Saída: 	1º - 3
+				2º - 5
+				3º - 7
+				4º - 9
+				5º - 11
+
+12 - Faça uma algoritmo que imprima a série de termos de uma progressão geométrica (P.G). Usuário fornece o primeiro termo da PG e a razão entre os termos, depois disso ele fornece o último termo da PG que ele deseja imprimir. O algoritmo calcula e retorna essa série de valores. Exemplo:
+		Entrada: primeiro termo = 3, razão = 2, ultimo termo = 5º
+		Saída: 	1º - 3
+				2º - 6
+				3º - 12
+				4º - 24
+				5º - 48
+
+13 - Faça um algoritmo que a partir de um montante inicial emprestado do banco, a taxa de juros e o período de empréstimo, calcule o montante final a ser pago utilizando juros compostos.
+
+14 - Um caminhão baú possui volume de carga de 120m³. Faça um algoritmo que mostre o preenchimento do caminhão em porcentagem a medida que o usuário vai colocando material no caminhão. 
+
+15 - Faça um algoritmo que imprima uma barra de progresso de 0 a 100% de acordo com a progressao desejada pelo usuário.
+	Exemplo: 
+		Entrada: progressão = 2
+		Saída:  0
+				2
+				4
+				6
+				8
+				10
+				...
+				...
+				...
+				96
+				98
+				100

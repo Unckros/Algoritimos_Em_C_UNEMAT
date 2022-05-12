@@ -1,0 +1,116 @@
+1 - Crie um algoritmo com a ferramenta switch case que possibilite ao usuário fazer umas das operações lógicas AND, OR, XOR, NAND, NOR.
+
+1 - AND
+2 - NAND
+3 - OR
+4 - NOR
+5 - XOR
+
+Objetivo: criar um menu de opcoes que possibilite o cliente a fazer as 5 operações lógicas básicas (AND, NAND, OR, NOR, XOR).
+
+
+Variáveis de Entrada
+opcao-inteiro
+numero1-inteiro
+numero2-inteiro
+
+Variáveis de Saída
+resultado-inteiro
+
+Algoritmo
+
+passo 1- digite a opcao de acordo com o menu
+passo 2- leia a variavel opcao
+passo 3- digite dois numeros binários (0 ou 1)
+passo 4- leia num1 e num2
+passo 5- caso opcao = 1 entao resultado=num1 and num2
+passo 6- caso opcao = 2 entao resultado=num1 nand num2
+passo 7- caso opcao = 3 entao resultado=num1 or num2
+passo 8- caso opcao = 4 entao resultado=num1 nor num2
+passo 8- caso opcao = 5 entao resultado=num1 xor num2
+passo 9- caso qualquer outro entao "opcao invalida"
+passo 10- imprima resultado
+
+Exercício 1 - Crie um menu com 3 opções de pizzas para serem escolhidas. De acordo com o número selecionado pelo usuário, confirme o pedido da pizza.
+Menu de opções de pizza
+1 - Pizza de Calabresa
+2 - Pizza 4 Queijos
+3 - Pizza Portuguesa
+
+
+
+Exercício 2 - Crie sistema de pedido de pizza com 3 opções de pizzas para serem escolhidas e 3 opções de tamanho. De acordo com as opções do usuário, confirme o pedido da pizza, o tamanho e preço.
+Menu de opções de pizza
+1 - Pizza de Calabresa
+2 - Pizza 4 Queijos
+3 - Pizza Portuguesa
+
+Menu de opções de tamanhos
+1 - Pequena - R$ 25,00 
+2 - Média - R$ 30,00 
+3 - Grande - R$ 35,00
+OBS: Esse exercício pode ser resolvido com dois switch case.
+
+Exercício 3 - Crie um sistema de efetue manualmente todas as relações de portões lógicos (AND, NAND, OR, NOR, XOR) aplicados a dois sinais binários (inteiros 0 ou 1) inseridos pelo usuário. Imprima os valores dos portões.
+Entrada de sinais sin_a e sin_b
+caso sin_a = 0 e sin_b = 0
+	port_and = 0;
+	port_nand = not port_and;
+	port_or = 0;
+	port_nor = not port_or;
+	port_xor = 0;
+	
+caso sin_a = 0 e sin_b = 1
+	port_and = 0;
+	port_nand = not port_and;
+	port_or = 1;
+	port_nor = not port_or;
+	port_xor = 1;
+
+caso sin_a = 1 e sin_b = 0
+	port_and = 0;
+	port_nand = not port_and;
+	port_or = 1;
+	port_nor = not port_or;
+	port_xor = 1;
+
+caso sin_a = 1 e sin_b = 1
+	port_and = 1;
+	port_nand = not port_and;
+	port_or = 1;
+	port_nor = not port_or;
+	port_xor = 0;
+
+OBS: Esse exercício pode ser resolvido com switch case ou if else. De preferência resolva das duas formas.
+
+Exercício 4 - Uma máquina possui 7 estados possíveis de funcionamento. A transição de um estado para o outro provoca um comportamento específico. Construa um algoritmo que emule o comportamento utilizando como parâmetro o estado atual e o estado futuro de uma transição.
+
+caso estado_atual = 0 e estado_futuro = 1
+	"Maquina ligada e operando com funções mínimas."
+	
+caso estado_atual = 1 e estado_futuro = 0
+	"Maquina sendo desligada."
+	
+caso estado_atual = 1 e estado_futuro = 2
+	"Maquina ligada solicita ao gerenciador do sistema autorização para operação com funções completas."
+	
+caso estado_atual = 2 e estado_futuro = 1
+	"Gerenciador do sistema não autoriza que a máquina opere com funções completas."
+	
+caso estado_atual = 2 e estado_futuro = 3
+	"Gerenciador do sistema autoriza as funções completas. A máquina deve enviar suas especificações de sensores para o gerenciador."
+
+caso estado_atual = 3 e estado_futuro = 4
+	"A máquina termina de enviar suas especificações para o gerenciador e agora opera com funções completas. Além disso, deve enviar a leitura dos sensores periodicamente para o gerenciador."
+
+caso estado_atual = 4 e estado_futuro = 5
+	"A máquina solicita ao gerenciador do sistema autorização para operação com funções mínimas."
+
+caso estado_atual = 5 e estado_futuro = 4
+	"Gerenciador do sistema não autoriza que a máquina opere com funções mínimas."
+
+caso estado_atual = 5 e estado_futuro = 1
+	"Gerenciador do sistema autoriza as funções mínimas. A máquina deve permanecer ligada e parar de enviar leituras ao gerenciador."
+
+caso default
+	"Transição de estado desconhecida."

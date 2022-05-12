@@ -1,0 +1,87 @@
+1 - Crie um algoritmo que utilize uma função que calcule adição de dois números através de uma função.
+
+2 - Crie um algoritmo que utilize uma função que calcule subtração de dois números através de uma função.
+
+3 - Crie um algoritmo que utilize uma função que calcule divisão de dois números através de uma função.
+
+4 - Crie um algoritmo que utilize uma função que calcule multiplicação de dois números através de uma função.
+
+5 - Crie um algoritmo que utilize uma função que calcule potência através de uma função que use outra função de multiplicação.
+
+6 - Crie um algoritmo que utilize uma função que calcule o maior entre dois números através de uma função.
+
+7 - Crie um algoritmo que utilize uma função que calcule o menor entre dois números através de uma função.
+
+8 - Crie um algoritmo de calculadora com as 4 operações e potência que use as funções descritas nos exercícios anteriores.
+
+9 - Crie um algoritmo de Progressão Aritmética (P.A) que use as funções descritas nos exercícios anteriores.
+
+10 - Crie um algoritmo de Progressão Geométrica (P.G) que use as funções descritas nos exercícios anteriores.
+
+11 - Crie um programa que consiga converter números inteiros entre bases diferentes que use as funções descritas nos exercícios anteriores.
+
+12 - Crie um programa que consiga mostrar o menor valor de uma matriz que utilize funções descritas nos exercícios anteriores.
+
+13 - Crie um programa que consiga mostrar o maior valor de uma matriz que utilize funções descritas nos exercícios anteriores.
+
+14 - Crie um programa que coloque uma matriz em ordem crescente que utilize uma função de troca de posição.
+
+15 - Crie um programa que coloque uma matriz em ordem decrescente que utilize uma função de troca de posição.
+
+16 - Crie uma função delay que possibilite ao usuário criar atrasos em millisegundos no código.
+
+17 - Crie uma função que converta o horário de brasília atual para o horário de qualquer zona do mundo.
+
+18 - Escreva uma função que receba uma string e imprima de forma inversa.
+
+19 - Escreva uma função que recebe a data do usuário e imprima seu calendário no formato.
+	Nome do Mês - Ano
+D	S	T	Q	Q	S	S
+	1	2	3	4	5	6	
+7	8	9	10	11	12	13
+14	15	16	17	18	19	20
+21	22	23	24	25	26	27
+28	29	30	31
+
+A fórmula para calcular o dia da semana correspondente a uma data para meses de janeiro ou fevereiro:
+n = a+31*(m-1)+d(a-1) div 4-3*((a+99) div 100) div 4;
+
+meses restante:
+n = a+31*(m-1)+d-(4*m+23)/div 10+a div 4-(3*(a div/100+1)div 4/4;
+
+a = ano
+m = mes
+d = dia
+
+n % 7 = 1 (segunda feira), 2 (terça feira)
+
+20 - Escreva uma função que transforme um algorismo romano em número inteiro.
+
+21 - Escreva uma função que converta graus Celsius em Fahrenheit.
+
+22 - Crie uma função que calcule o número de combinações através do combinatório.
+
+23 - Crie um programa que calcule a probabilidade de acontecimento de X na distribuição normal X~N(media, desvio) utilizando funções.
+
+24 - Crie um programa que calcule a probabilidade de acontecimento de X na distribuição de poisson X~P(media, desvio) utilizando funções.
+
+25 - Crie uma biblioteca para funções ligadas a estatística.
+- média
+- mediana
+- moda
+- frequência
+- frequência relativa
+- variância
+- desvio padrão
+
+26 - Crie uma biblioteca para funções ligadas a probabilidade.
+- Distribuição Normal
+- Distribuição de Poisson
+- Distribuição Binomial
+- Distribuição Uniforme
+- Distribuição Exponencial
+
+27 - Crie uma biblioteca para funções ligadas a (de)codificação
+- Paridade
+- Checksum
+- Pelo menos 3 CRCs
