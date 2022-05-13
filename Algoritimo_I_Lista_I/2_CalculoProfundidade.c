@@ -38,7 +38,7 @@ int main (){
 //====================================================
 
 	profundidade= litros/(pi*(r*r)*1000);
-	printf("profundidade:\t %.2f\n", profundidade);
+	printf("profundidade em metros é:\t %.2f\n", profundidade);
 //====================================================
 
 	return 0;
