@@ -35,14 +35,14 @@ passo 10- imprima resultado */
 #include <stdio.h>
 
 int main (){
-	int num1=	0, num2=	0, esc;
+	int num1=	0, num2=	0, resultado, esc;
 	system("clear");
 
 	printf("Digite o primeiro numero 0 ou 1: ");
 	scanf("%d", &num1);
 
 	printf("Digite o segundo numero 0 ou 1: ");
-	scanf("%d", &num1);
+	scanf("%d", &num2);
 	system("clear");
 
 	printf(
@@ -61,7 +61,67 @@ int main (){
 
 	switch (esc){
 		case 1:
-	break;
+			if (num1== num2){
+				resultado=	1;
+				printf("%i \n", resultado);
+			}else{
+				resultado=	0;
+				printf("%i \n", resultado);
+			}
+			
+		break;
+
+		case 2:
+			if ((num1=! 1) and (num2=! 1)){
+				resultado=	1;
+				printf("%i \n", resultado);
+			}else{
+				resultado=	0;
+				printf("%i \n", resultado);
+			}
+
+		break;
+
+		case 3:
+			if (num1 or num2 == 1){
+				resultado= 1;
+				printf("%i \n", resultado);
+			}else{
+				resultado= 0;
+				printf("%i \n", resultado);
+			}
+	
+		break;
+
+		case 4:
+			if (num1== 0 and num2== 0){
+				resultado= 1;
+				printf("%i \n", resultado);
+			}else{
+				resultado= 0;
+				printf("%i \n", resultado);
+			}
+
+		break;
+
+		case 5:
+			if (num1== 0 and num2== 0){
+				resultado= 0;
+				printf("%i \n", resultado);
+			}else if (num1 and num2== 1){
+				resultado= 0;
+				printf("%i \n", resultado);
+			}else{
+				resultado= 1;
+				printf("%i \n", resultado);
+			}
+
+		break;
+
+		default:
+			printf("Opção invalida\n");
+		break;
+
 	}
 
 	return 0;
